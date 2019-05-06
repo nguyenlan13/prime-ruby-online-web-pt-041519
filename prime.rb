@@ -3,7 +3,7 @@
 def prime?(int)
    x = 2
   while x < int
-    return false if int % x == 0
+    return false if x % 2 == 0
     x += 1
   end
   true
