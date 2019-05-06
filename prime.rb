@@ -2,7 +2,7 @@
 
 def prime?(i)
    x = 2
-   if i <= 0
+   if i <= 1
      return false
    end
   while x < i
