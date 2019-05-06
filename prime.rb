@@ -2,6 +2,8 @@
 
 def prime?(i)
    x = 2
+   if i < 0
+     return false
   while x < i
     return false if i % x == 0
     x += 1
